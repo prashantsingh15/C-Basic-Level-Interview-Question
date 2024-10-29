@@ -4,17 +4,13 @@
 using namespace std;
 int main(){
     int sum = 0;
-    int i = i;
+    int i  = 1;
 
-    do {
-        
-
+    do{
         sum = sum + i;
+        i++;
 
-        cout<<sum;
+    } while (i <= 10);
+    cout<<" Sum of the Number is: "<<sum<<endl;
 
-
-    } 
-
-    
 }
